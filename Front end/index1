@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>  
+            div {  
+                background-color:hsl(0, 0%, 50%);  
+            }  
+            h2 {  
+                color: rgb(252, 38, 56);  
+                padding: 50px;  
+            }   
+            </style> 
+    </head> 
+    <center><h1><a href="table.html">Table</a></h1></center><br>
+    <center><h1><a href="cssselectors.html">Selectors</a></h1></center><br>
+    <center><h1><a href="csscolors.html">colors</a></h1></center><br>
+    <center><h1><a href="internal.html">CSS TYpes</a></h1></center><br>
+    <center><h1><a href="pseudo-elements.html">CSS TYpes</a></h1></center><br>
+     <div>
+                <center><h1>Cascading Style Sheets(CSS)</h1></center> 
+                Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML </p>
+        <p>CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        <p> Cascading:Multiple styles can overlap in order tospecify a range of style from a whole website.<br>
+        <br>Style: CSS deals specially with the presentation domain of designing a webpage
+        <br><br>
+        Sheet:Normally,CSS is a file separated from the HTML file _ linked to the HTML file through its <head><br><br></p>
+        <p>This includes overall layout,textsize,style and formatting,link properties,and more.</p> 
+        <h2>CSS types</h2>  
+        <p>This is internal cascading style sheets</p>
+          
+            </div>
+        
+        <div>
+            <h3 style="background-color:green;padding:60px">This is inline cascading style sheets</h3>
+        </div>
+        <section>
+            <h3>This is external style sheet</h3>
+        </section> 
+    </html>
