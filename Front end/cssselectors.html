@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> selectors</title>
+<style>
+    body{
+        background: #eacda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eacda3, #d6ae7b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eacda3, #d6ae7b);
+    }
+p{
+    color: rgb(245, 169, 48);
+} 
+
+#para1{
+    text-align: center;
+    color:green
+}
+.center{
+    background-color: purple;
+    font-size: x-large;
+}
+h4, h3, h5{
+    border: 3px solid blue;
+    text-align:center;
+    color: red;
+}
+
+
+</style>
+<body style="background-color: rgb(226, 226, 229)">
+
+    <h1>CSS Selectors</h1>
+     
+    <h2>I. The CSS element Selector</h2>
+    <p>The CSS element selector selects the HTML element(s) you want to style.</p>
+    <p >The CSS element selector is written as follows:</p>
+    <p>Example: </p>
+    <section>
+        p {
+            text-align: right;
+            color: blue;
+          }
+        </section>
+    <hr>
+    <h2>II. The CSS class Selector</h2>
+    <p>The CSS class selector selects the HTML element(s) you want to style.</p>
+
+    <p>Example: </p>
+    <pre class="center">
+        .class_name {
+            padding:20px;
+            text-align: right;
+            color: yellow;
+          }
+    </pre>
+    <p>Tag Example: </p>
+    &lt;p class="class_name"&gt; This is Class Selector &lt;/p&gt;
+    <hr>
+    <h2>3. The CSS ID Selector</h2>
+    <p>The CSS ID selector selects the HTML element(s) you want to style.</p>
+    <p>The CSS ID selector is written as follows:</p>
+    <p>Example: </p>
+    <section id="para1">
+        #id_name {
+            text-align: left;
+            color: pink; 
+            padding:20px;
+          }
+        </section>
+        <h2>3. The CSS grouping Selector</h2>
+        <p>The CSS grouping selector  selector selects the HTML element(s) you want to style.</p>
+        <p>The CSS grouping selector is written as follows:</p>
+        <p>Example: </p>
+        <section>
+            * {
+                text-align: left;
+                color: pink; 
+                padding:20px;
+              }
+            </section>
+
+            <h2>3. The CSS universal Selector</h2>
+            <p>The CSS universal  selector selects the HTML element(s) you want to style.</p>
+            <p>The CSS universal selector is written as follows:</p>
+            <p>Example: </p>
+            <section >
+                h1,h2,h3 {
+                    text-align: left;
+                    color: purple; 
+                    padding:20px;
+                  }
+
+                
+                </section>
+
+                <center><h1><a href="index1.html">home</a></h1></center><br>
+
+</body>
+
+</html>
