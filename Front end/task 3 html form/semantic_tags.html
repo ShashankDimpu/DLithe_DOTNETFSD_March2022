@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: rgb(241, 239, 116);
+  padding: 10px;
+}
+/* for  the img class*/ 
+#clas{
+    text-align: center;
+    fill-opacity: initial;
+    align-items: center;
+}
+img:hover{
+    opacity: 0.5;
+}
+body{
+    background: #a80077; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a80077, #66ff00); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a80077, #66ff00);
+}
+h1{
+    text-align: center;
+    color: rgb(233, 150, 102);
+}
+/*opacity for the 0.3, 0.45, and 0.8   by default its 1*/
+div.three {
+    text-align: right;
+  opacity: 1;
+}
+
+div.two {
+    text-align: center;
+  opacity: 0.45;
+}
+div.one {
+    text-align: justify;
+  opacity: 0.9;
+}
+/* color for paragraph */
+p{
+color: magenta;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Image Transparency</h1></center>
+<p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+<center><img id="clas" src="accests/drop.png" alt="html"></center>
+<br>
+<h1>Transparent Box</h1>
+<section style="padding-left: 25%;padding-right: 20%; background-color: lightseagreen;">
+<p style="color: antiquewhite;">When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. 
+    This can make the text inside a fully transparent element hard to read:</p>
+    <div class="one"><p>opacity 0.9
+        <article>
+            <h2>Google Chrome (article)</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            </article>
+    </p></div>
+    <div class="two"><p>opacity 0.45
+        <aside>
+            <h4>aside tag</h4>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </aside>
+    </p></div>
+<div class="three"><p>opacity 1 and footer
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+      </footer>
+</p></div>
+
+</section>
+</body>
+</html>
