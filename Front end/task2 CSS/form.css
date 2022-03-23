@@ -78,5 +78,11 @@
       width: 50%;
       height: 50px;
       border-radius: 5px;
-    background-color: white;
+      border-style: double;
+      border-color: black;
+      background-color: rgb(129, 243, 163);
+      color: #020202;
+      font-size: 19px;
+      font-weight: bold;
+      text-shadow: 0.5px 0.5px rgb(200, 245, 1);
   }
