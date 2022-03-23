@@ -1,0 +1,192 @@
+img {
+    opacity: 1.0;
+}
+img:hover {
+        opacity: 0.5;
+      }    
+nav ul{list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: indigo;
+}
+
+ nav li{
+    float:left;
+}
+ nav ul ul li
+{
+	width: 130px;
+	float:none;
+	display:list-item;
+	position:relative;
+  
+  
+}
+
+
+nav ul ul 
+{
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+
+nav ul li:hover > ul 
+{
+	display:inherit;
+}
+
+
+ nav li a.active{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+ nav li a.active:hover{
+    background-color: turquoise;
+}
+body{
+    font-size: 20px;
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    text-shadow: 2px 2px 4px green;
+}
+P.cen::first-line{
+    color: greenyellow;
+    font-variant: small-caps;
+}
+p.pen::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  p.er::before {
+    content:url(emoji.gif);
+  }
+  div.over {
+    background-color: #eee;
+    width: 500px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: visible;
+  }
+  div.scroll{
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: scroll;
+  }
+  div.auto {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: auto;
+  }
+  img.one{
+    position: relative;
+    left: 30px;
+    top:30px;
+    z-index: -1;
+  }
+  #rcorners1{
+    border-radius: 10px;
+    background: rgb(135, 235, 152);
+    padding:10px;
+    width: 200px;
+    height: 150px;
+  }
+  #rcorners2 {
+    border-radius: 45px 10px 30px; 
+    background: blue;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  }
+  
+  #box{
+    width: 300px;
+  height: 100px;
+  padding: 15px;
+  color:black;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black,2px 2px 2px blue ;
+  background-color: blueviolet;
+  box-shadow: 20px 20px 20px green,25px 25px 30px darkblue;
+  border-radius:15px;
+  
+}
+#Borderimage{
+  border: 20px solid transparent;
+  padding: 15px;
+  border-image-source: url(Images/Coding.jpg);
+  border-image-repeat:round;
+  border-image-slice: 40;
+  border-image-width: 20px;
+} 
+/*nest hab resolution*/
+@media screen and (max-width:1000px) {
+  body {
+    background-color:blue;
+    color:red;
+  }
+}
+
+/* surface pro resolution  */
+@media screen and (max-width:900px) {
+  body {
+    background-color: green;
+    background: red;
+    
+    color:aqua;
+  }
+  @media screen and (max-width:300px) {
+    body {
+      background-color: green;
+      background:yellow;
+      
+      color:aqua;
+    }
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: pink;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 120%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+ #grad1 {
+   height: 200px;
+   background-image: linear-gradient(to);
+
+}
+img.c {
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(10,45,0,0.4));
+    width:100px;
+    height:100px;
+}
