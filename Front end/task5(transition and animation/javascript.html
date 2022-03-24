@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<body> 
+    
+
+    <p id="s"></p>
+    <p id="s1"></p>
+    <p id="s2"></p>
+    <p id="s3"></p>
+    <p id="s4"></p>
+    <p id="s5"></p>
+    <p id="s6"></p>
+    <p id="s7"></p>
+    <p id="s8"></p>
+    <p id="s9"></p>
+    <script>
+        alert("welcome Shashank this is javascript data types");
+document.getElementById("s2").innerHTML = 
+typeof "venkatesh" + "<br>" + 
+typeof 469 + "<br>" +
+typeof 6.17 + "<br>" +
+typeof (123e5) + "<br>" + //12300000
+typeof (3 + 4);
+
+        let z = "V" + 2 +" "+"Services";//concat
+        var x=5;
+        var y=7;
+        
+        const details = {
+          firstName : "Shashank",
+          lastName  : "Dimpu",
+          age     : 21,
+          eyeColor  : "black"
+        };
+
+
+document.getElementById("s3").innerHTML = details.firstName +' '+details.lastName+ " is " + details.age + " years old.";
+document.getElementById("s").innerHTML = z; //When adding a number and a string, JavaScript will treat the number as a string.
+document.getElementById("s1").innerHTML =(x >y) + "<br>" + (x<y);
+
+            var a=60; //number
+            var a1=69;
+            var b="KINGS"; //string
+            var i='a'
+            var c=true; //boolean
+            var d=1.5; //decimal
+            var e=null; //null
+            var f; //undefined
+            var g=["array1","array2"]; //array
+            const h=
+            {
+                    name:"abc",age:"25"
+            }; //object
+            document.write(a+"<br>");
+            document.write(b+"<br>");
+            document.write(c+"<br>");
+            document.write(d+"<br>");
+            document.write(e+"<br>");
+            document.write(f+"<br>");
+            document.write(i+"<br>");
+            document.write(g[0]+"<br>");
+            document.write(h.name+"<br>");
+            document.write(h.age+"<br>");
+
+</script>
+<h3>variables scope and fixed and varaible</h3>
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+const PI = 3.14159265359;
+
+var carName = "Volvo";
+
+let  a = 10;  //global scope
+// Here a is 10
+{  
+  
+  let a = 2;
+  let b=5;  //local scope
+  document.write("Local Scope"+b+"<br>");
+  // Here a is 2  
+}
+
+
+{
+   let b=3;// Redeclaring a variable with let, in another block, IS allowed
+}
+
+
+document.getElementById("s5").innerHTML =
+"The value of z is " + z + ".";  //variable
+
+document.getElementById("s6").innerHTML = 10.50; //literal
+
+document.getElementById("s7").innerHTML = (5 + 6) * 10; //operators
+
+
+document.getElementById("s8").innerHTML = carName;
+
+document.getElementById("s9").innerHTML = "Global Scope"+a;
+
+document.write(PI);
+document.write(b);
+</script>
+</body>
+</html>
