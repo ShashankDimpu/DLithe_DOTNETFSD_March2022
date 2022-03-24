@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link href='transition.css' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css">
+        
+        body > div
+        {
+            margin:121px 149px;
+            
+            width:483px;
+            height:298px;
+            
+            background:green;
+            color:#fff;
+            
+            font-family:Lato;
+            font-weight:900;
+            font-size:3.4em;
+            
+            text-align:center;
+            line-height:298px;
+            
+            transition:all 0.3s ease;
+            
+        }
+        
+        .circle:hover
+        {
+            border-radius:50%;
+        }
+      
+        .shrink:hover
+        {
+            -webkit-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+            transform: scale(0.8);
+        }
+      
+        .threed:hover
+        {
+            box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+            -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+        }
+        
+        .rotate:hover
+        {
+            -webkit-transform: rotateZ(-30deg);
+            -ms-transform: rotateZ(-30deg);
+            transform: rotateZ(-30deg);
+        }
+         
+        .grow:hover
+        {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+        }
+      
+        .fade
+        {
+            opacity:0.5;
+        }
+        .fade:hover
+        {
+            opacity:1;
+        }
+         .color:hover
+        {
+            background:gold;
+        }
+       .border:hover
+        {
+            box-shadow: inset 0 0 0 25px yellow;
+        }
+        .T{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.T:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+        
+    </style>
+</head>
+<body>
+    
+    <div class="circle">Square to Circle</div>
+    <div class="shrink">Shrink</div>
+    <div class="threed">3D Shadow</div>
+    <div class="T">transition+Transform</div>
+   <div class="rotate">Rotate</div>
+    <div class="grow">Grow</div>
+   <div class="fade">Fade in</div>
+   <div class="color">Change Color</div>
+   <div class="border">Inset Border</div>
+  
+    
+</body>
+</html>
