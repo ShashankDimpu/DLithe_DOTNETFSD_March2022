@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Concepts</title>    
+</head>
+<body>
+    <h3>Concat</h3>
+    <script>
+        //concat//
+        var s1="javascript ";  
+        var s2="String Example";  
+        var s3=s1.concat(s2);  
+        document.write(s3); 
+    </script>
+    <hr>
+    <h3>Indexof</h3>
+    <script>
+        //indexof//
+    var s1="javascript indexof example";  
+    var n=s1.indexOf("indexof");  
+    document.write(n);
+    document.writeln("<br/>"); 
+    //lasrindexof
+    var s1="indexof javascript indexof";  
+    var n=s1.lastIndexOf("indexof");  
+    document.write(n); 
+    </script>
+    <hr>
+    <h3>Tolowercase</h3>
+    <script>
+        //tolowercase//
+         var s1="toLowerCase Example";  
+            var s2=s1.toLowerCase();  
+            document.write(s2); 
+    </script>
+    <hr>
+    <h3>Tolowercase</h3>
+    <script>
+        //touppercase//
+         var s3="toupperCase Example";  
+            var s4=s3.toUpperCase();  
+            document.write(s4); 
+    </script>
+    <hr>
+    <h3>Slice</h3>
+    <script>
+        //slice//
+        var s1="abcdefghi";  
+        var s2=s1.slice(3,6);  
+        document.write(s2);  
+    </script>
+    <hr>
+    <h3>Trim</h3>
+    <script>
+          var s1="javascript trim  ";  
+         var s2=s1.trim();  
+         document.write(s2);
+    </script>
+    <hr>
+    <h3>Split</h3>
+    <script>
+         var str="Naveen Lalith Vishal Riju Aakass Aakash";  
+         document.write(str.split(" Vishal")); 
+    </script>
+     <p>
+        <b>charAt: 6th charecter in \"Hello world\"</b>
+    </p>
+    <p>
+        <script>
+            var str = "Hello World!";
+            var res = str.charAt(6);
+            document.write(res);
+        </script>
+    </p>
+    <div class="container">
+        <h3>lastIndexOf()</h3>
+        <hr>
+        <p>
+            <b>lastIndexOf()</b> method returns the position of the last occurrence of a specified text in a string.
+        </p>
+       
+        <p>
+            <b>Last index of \'o\' in \"Hello world\"</b>
+        </p>
+        <p>
+            <script>
+                var str = "Hello World!";
+                var res = str.lastIndexOf("o");
+                document.write(res);
+            </script>
+        </p>
+    </div>
+    <br>
+</div>
+<br>
+</div>
+
+</body>

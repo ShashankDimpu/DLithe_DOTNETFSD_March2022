@@ -1,0 +1,193 @@
+<html>
+    <body>
+<h2>Arrays</h2>
+        <script>
+            var colors = ["Red", "Green", "Blue"]; 
+   var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];
+   var cities = ["London", "Paris", "New York"];
+   document.write(colors + "<br>");
+    document.write(fruits + "<br>");
+   document.write(cities + "<br>");
+   document.writeln("<br/>"); 
+   document.writeln("<br/>"); 
+//length of array
+   document.write("Length of an array for fruits"+"<br>");
+   document.write(fruits.length+"<br>");
+
+   document.writeln("<br/>"); 
+   document.writeln("<br/>");
+
+
+   fruits.push("Strawberry");
+ 
+ document.write(fruits+"<br>"); // "Apple", "Banana", "Mango", "Orange", "Papaya"
+ document.write(fruits.length+"<br>"); // Prints: 6
+
+ document.writeln("<br/>"); 
+   document.writeln("<br/>");
+
+   document.write("Looping through an array"+"<br>");
+// Iterates over array elements
+for(var i = 0; i < fruits.length; i++)
+{    
+    document.write(fruits[i] + "<br>"); // Print array element
+}
+       </script>
+
+<h4>for of loop</h4>
+<script>
+// Iterates over array elements
+//for-of loop
+for(var fruit of fruits) 
+{    
+document.write(fruit + "<br>"); // Print array element
+}
+</script>
+<h4> for in loop</h4>
+<script>
+//for-in loop
+for(var i in fruits) 
+{  
+document.write(fruits[i] + "<br>");
+}
+</script>
+
+
+
+
+
+<h2>Array Methods</h2>
+
+        <p>The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place</p>
+        <script>
+
+const days = ['sun', 'Mon', 'tue', 'wed'];
+            //splice(start, deleteCount, item1, item2, itemN)
+days.splice(1, 0, 'sat');
+// inserts at index 1
+document.write(days);
+// expected output: Array ["sun", "mon","tue","wed"]
+document.writeln("<br/>"); 
+
+days.splice(4, 1, 'added');
+// replaces 1 element at index 4
+document.write(days);
+
+// expected output: Array ["Jan", "Feb", "March", "April", "May"]
+document.writeln("<br/>"); 
+</script>
+
+<p>The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.</p>
+<!--concat opearation-->
+<script>
+    const array1 = ['one ', 'two', 'three'];
+const array2 = ['1', '2', '3'];
+const array3 = array1.concat(array2);
+
+document.write(array3);
+</script>
+<hr>
+<!-- concatinate of numbers and lettres-->
+<p>concatinate of numbers and lettres</p>
+<script>
+    const letters = ['a', 'b', 'c'];
+
+const alphaNumeric = letters.concat(13, 16, 33);
+
+document.write(alphaNumeric);
+// results in ['a', 'b', 'c', 1, 2, 3]
+</script><hr>
+<!-- entries function-->
+<p>The entries() method returns a new Array Iterator object that contains the key/value pairs for each index in the array.</p>
+<script>
+    var a = ['one', 'two', 'three','four','five'];
+var iterator = a.entries();
+for (let e of iterator)
+ {
+  document.write(e+"<br>");
+}
+//reverse method
+            </script>
+            <hr>
+            <p>The reverse() method reverses an array in place</p>
+            <script>
+                var a = [1, 2, 3,4,5,6,7,8,9,10];
+
+document.write(a); // [1, 2, 3]
+
+a.reverse();
+document.writeln("<br/>"); 
+
+document.write(a); // [3, 2, 1]
+</script><hr>
+<p>index values of string startig and reapeated string of last string index</p>
+<script>
+    //indexof and lastindexof methods
+
+    var fruits = ["Banana", "Orange", "Apple", "Mango","Apple"];
+    var a=fruits.indexOf("Apple") ;  // Returns 2
+    document.write(a);
+    document.writeln("<br/>"); 
+    a=fruits.lastIndexOf("Apple"); 
+    document.write(a);
+        </script>
+        <hr>
+
+<p>The toString() method returns an array as a comma separated string:</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+</script>
+<hr>
+<p>The join() method returns an array as a string.</p>
+<script>
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var a=fruits.join() ;  // Returns "Banana,Orange,Apple,Mango"
+document.write(a);
+console.log(a);
+console.log(fruits);
+
+</script>
+<hr>
+<p>The slice() method returns selected elements in an array, as a new array.</p>
+<script>
+    var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+    //extract the third and fourth elements, using negative numbers.
+var a = fruits.slice(-3, -1);
+document.write(a);
+document.writeln("<br/>"); 
+var b = fruits.slice(1, 4);
+document.write(b);
+</script>
+<hr>
+<!-- sort operation -->
+<p>The sort() method sorts an array alphabetically</p>
+<script>
+    var arr = [2, 5, 8, 1, 4]
+document.write(arr.sort());
+document.write(arr);
+document.writeln("<br/>");
+document.writeln("<br/>");
+  let arr1=[27,68,1,32,79,63]
+  document.write(arr1.sort());
+  document.writeln("<br/>");
+document.write(arr1);
+</script>
+<hr>
+
+<p>The filter() method creates a new array with all elements that pass the test implemented by the provided function.</p>
+<script>
+var words = ['Lekha', 'parthiv', 'sindu','getha','rajesh', 'Lakith', 'Raju', 'Elango','lokesh'];
+
+var result = words.filter(word => word.length == 6);
+
+var result1 = words.filter(word => word.length == 5);
+document.writeln("<br/>");
+document.write(result);
+document.writeln("<br/>");
+document.write(result1);
+
+</script>
