@@ -30,10 +30,11 @@ section::after{
 #header-resume{
    opacity:0.8;
   background-position: center;
-	background-image: url(images/background.jpg);
+	background-image: url(assests/background.jpg);
 	background-size: cover;
 	height:400px;
 	padding-top: 14px;
+	backface-visibility: 50%;
 }
 
 #header-nav ul{
@@ -46,7 +47,7 @@ section::after{
 
 #header-nav li a{
 	text-decoration: none;
-	color:white;
+	color:rgb(255, 255, 255);
 }
 
 .nav-menu li a{
@@ -171,5 +172,68 @@ section::after{
 .text-right{
     text-align: right;
 }
+.col-2{
+	float: left;
+	width: 45%;
+	margin: 20px;
+	padding:10px;
+}
 
+#favourites img{
+	width:500px;
+	border: 2px dashed darkblue;
+	height: 500px;
+}
+#bootcamp{
+	
+	width:100%;
+}
+
+#bootcamp img{
+
+	width:700px;
+	height: 500px;
+}
+
+
+#favourites span{
+	margin: 20px;
+}
+#footer{
+	background:  #e4e1e1;
+	padding: 10px 0 20px;
+  }
+  
+  .footer-row{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  
+  
+  .footer-img{
+	  position: absolute;
+	  background-size: cover;
+	  left: 35%;
+	  opacity: 0.3;
+	  width: 370px;
+  }
+  
+.title-text p{
+	font-size: 40px;
+	color: #000;
+  }
+  
+  .title-text h1{
+	font-size:30px;
+	color: #1ca700;
+  }
+  .title-text{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+  }
+  
 
