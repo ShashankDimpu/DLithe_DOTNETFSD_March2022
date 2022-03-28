@@ -86,3 +86,6 @@
       font-weight: bold;
       text-shadow: 0.5px 0.5px rgb(200, 245, 1);
   }
+  .a{
+    display: inline;
+  }

@@ -89,10 +89,26 @@
             <textarea class="textarea-elm"  id="more-specification"></textarea>
           </div>
 
-            <button class="button-elm" type="submit" id="submit">Submit Form</button><br>
-            <br>
-            <a href="week_1_task.html" rel=""home><center>back</center></a>
+           
         </fieldset>
           </form> 
+         <div class="a">
+          <button class="button-elm" type="submit" id="submit" onclick="submit()">Submit Form</button><br>
+          </div>
+          <script>
+            function submit()
+            {
+              var msg= confirm("Do you want to submit the form?")
+              if(msg)
+              {
+                alert("Form submitted successfully")
+                window.location="week_1_task.html";
+              }
+              else{
+                alert("Go back to edit the form")
+                window.location="form.html";
+              }
+            }
+          </script>
         </body>
       </html>
