@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <script src="
+https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+  
+</head>
+  
+<body>
+    <p id="para">Chaining method in jQuery</p>
+  
+    <button id="b">Click me</button>
+  
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#b").click(function() {
+                  
+                 //assigning the color blue
+                $("#para").css("color", "blue")
+                //using slide up method
+                    .slideUp(2000)  
+                 //using slide down method
+                    .slideDown(2000).
+                slideUp(2000).
+                slideDown(4000);
+            });
+        });
+    </script>
+
+    <p id="para1">Enlarge the text</p>
+  
+    <button id="a">Enlarge</button>
+  
+    <script type="text/javascript">
+       $(document).ready(function() {
+        $("#a").click(function() { 
+         $("#para1").css("color", "blue").animate({
+               width: "100%"
+            })
+            //it adds animation to the program by styling it
+            .animate({
+               fontSize: "46px"
+             })
+            .animate({
+                borderWidth: 30
+             });
+            });
+        });
+        
+    </script>
+</body>
+  
+</html>

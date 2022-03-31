@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+
+//$(selector).animate({params},speed,callback);
+
+//The following example demonstrates a simple use of the animate() method; it moves a <div> element to the right, until it has reached a left property of 250px
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#ani1").animate({left: '250px'});
+  });
+});
+</script> 
+
+
+<script> 
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#ani").animate({left: '500px'});
+      });
+    });
+    </script>
+
+    <!--jQuery animate() - Manipulate Multiple Properties-->
+
+<script> 
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#mani").animate({
+          left: '250px',
+          opacity: '0.5',
+          height: '100px',
+          width: '100px'
+        });
+      });
+    });
+    </script> 
+
+<script> 
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#growani").animate({
+          left: '250px',
+          height: '+=50px',
+          width: '+=50px'
+        });
+      });
+    });
+    </script>
+    
+    <script> 
+    //toggle
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#toggle").animate({
+              height: 'toggle'  //width: 'toggle'
+            });
+          });
+        });
+        </script>
+        <style>
+           body{
+              background: #FBD3E9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7cce3, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f58dc6, #afcdce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+      font-size: 22px;
+  }
+        </style> 
+
+</head>
+<body>
+<h2>Animation</h2>
+<br>
+<br>
+<button>Start Animation</button>
+
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+<hr>
+<br>
+<div style="background:#f0b026;height:100px;width:100px;position:absolute;" id="ani1"></div><br>
+
+<div style="background:#c5f517;height:50px;width:50px;position:absolute;margin-top: 100px;" id="mani"></div><br>
+
+<div style="background:#23a3c4;height:10px;width:10px;position:absolute;margin-top: 200px;" id="growani"></div><br>
+
+<div style="background:#f045a3;height:100px;width:100px;position:absolute;margin-top: 300px;" id="toggle"></div><br><br>
+
+<img src="assests/background.jpg" width="200px" height="200px" style="position:absolute;margin-top: 400px;" id="ani"/>
+<div class="container">
+    <br>
+    
+    <script>
+        $(document).ready(function () {
+            $("#btn5").click(function () {
+                $("#box").animate({ height: "300px" }).animate({ width: "300px" }).animate({ height: "100px" }).animate({ width: "100px" });
+            });
+        });
+    </script>
+    <button id="btn5" class="btn btn-info">Animate height</button>
+    <div id="box" style="background:pink;height:100px;width:100px;margin:6px;"></div>
+    <br>
+</div>
+<br>
+
+
+</body>
+</html>
