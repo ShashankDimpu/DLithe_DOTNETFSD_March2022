@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+    position: relative;
+    font-size: 22px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #23074d;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    text-decoration: none;
+}
+
+#section1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#section1 .popover {
+    color: black;
+}
+
+#section2 {
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+#section3 a {
+    text-decoration: none;
+    color: black;
+}
+
+#section3 a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#section4 a {
+    text-decoration: none;
+    color: white;
+}
+
+#section4 a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#section6 {
+    padding-top: 50px;
+    height: 500px;
+}
+
+#section6 button {
+    color: red;
+
+}
+
+#section2,
+#section3,
+#section4 {
+    padding-top: 50px;
+}
+    </style>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+    
+</head>
+<!--scrollspy-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!--Try with <ul class="nav nav-pills nav-stacked">-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CRTEK</a>
+            </div>
+            <div>
+
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">Popover</a></li>
+                        <li><a href="#section2">Progressbar</a></li>
+                        <li><a href="#section3">Tab</a></li>
+                        <li><a href="#section4">Pill</a></li>
+                        <li><a href="#section5">Scrollspy</a></li>
+                        <li><a href="js_alert.html">Javascript Alert</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="section1" class="container-fluid">
+        <h1>Popover</h1>
+        <p>The Popover plugin is similar to tooltips; it is a pop-up box that appears when the user clicks on an
+            element. The difference is that the popover can contain much more content.</p>
+        <br>
+        <h3>Popover Example</h3>
+        <br>
+        <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">1.
+            Toggle
+            popover</a>
+        <br>
+        <br>
+        <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">2. Hover over
+            me</a>
+    </div>
+    </div>
+
+    <hr>
+
+    <div id="section2" class="container-fluid">
+        <h1>Progressbar</h1>
+        <p>A progress bar can be used to show a user how far along he/she is in a process. Bootstrap provides several
+            types of progress bars.</p>
+        <h2>Basic Progress Bar</h2>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                style="width:95%">
+                <span class="sr-only">95% Complete</span>
+            </div>
+        </div>
+        <br>
+        <h2>Progress Bar With Label</h2>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                style="width:95%">
+                95%
+            </div>
+        </div>
+        <br>
+        <h2>Colored Progress Bars</h2>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                aria-valuemax="100" style="width:40%">
+                40% Complete (success)
+            </div>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100" style="width:50%">
+                50% Complete (info)
+            </div>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                aria-valuemax="100" style="width:60%">
+                60% Complete (warning)
+            </div>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100" style="width:70%">
+                70% Complete (danger)
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="section3" class="container-fluid">
+        <h1>Tab</h1>
+        <p>Most web pages have some kind of a menu. In HTML, a menu is often defined in an unordered list (and styled
+            afterwards)</p>
+        <h2>Dynamic Tabs</h2>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">HTML</a></li>
+            <li><a data-toggle="tab" href="#menu1">JAVA</a></li>
+            <li><a data-toggle="tab" href="#menu2">SQL</a></li>
+            <li><a data-toggle="tab" href="#menu3">C</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>HTML</h3>
+                <p>A markup language is a programming language that is used make text more
+                    interactive and dynamic. It can turn a text into images, tables, links etc.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>JAVA</h3>
+                <p>Java is a high level, robust, secured and object-oriented programming language.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>SQL</h3>
+                <p>SQL is just a query language, it is not a database. To perform SQL queries,
+                    you need to install any database for example Oracle, MySQL, MongoDB, PostGre SQL, SQL Server, DB2
+                    etc.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <h3>C</h3>
+                <p>The C Language is developed for creating system applications that direct
+                    interacts to the hardware devices such as drivers, kernals etc.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <!-- Pills -->
+    <div id="section4" class="container-fluid">
+        <h1>Pills</h1>
+        <ul class="nav nav-pills">
+            <li class="active"><a data-toggle="pill" href="#menu9">Home</a></li>
+            <li><a data-toggle="pill" href="#menu5">Menu 1</a></li>
+            <li><a data-toggle="pill" href="#menu6">Menu 2</a></li>
+            <li><a data-toggle="pill" href="#menu7">Menu 3</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="menu9" class="tab-pane fade in active">
+                <h3>HOME</h3>
+                <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed
+                    in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages
+                    such as JavaScript</p>
+            </div>
+            <div id="menu5" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+            <div id="menu6" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam.</p>
+            </div>
+            <div id="menu7" class="tab-pane fade">
+                <h3>Menu 3</h3>
+                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed
+            in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages
+            such as JavaScript.</p>
+    </div>
+
+
+</body>
+
+</html>

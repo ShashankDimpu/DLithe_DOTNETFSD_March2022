@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Alert</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+    <script>
+        function myFunction() {
+            alert("Hello! I am an alert box!");
+        }
+    </script>
+</head>
+<!--scrollspy-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!--Try with <ul class="nav nav-pills nav-stacked">-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CRTEK</a>
+            </div>
+            <div>
+
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Bootstrap.html">Popover</a></li>
+                        <li><a href="Bootstrap.html">Progressbar</a></li>
+                        <li><a href="Bootstrap.html">Tab</a></li>
+                        <li><a href="Bootstrap.html">Pill</a></li>
+                        <li><a href="Bootstrap.html">Scrollspy</a></li>
+                        <li><a href="js_alert.html">Javascript Alert</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="section6" class="container-fluid">
+        <h1>Javascript Alert</h1>
+        <br>
+        <p>The alert() method displays an alert box with a message and an OK button.
+            <br><br>The alert() method is used when you want information to come through to the user.
+        </p>
+
+        <button onclick="myFunction()" type="button" class="btn">Alert</button>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

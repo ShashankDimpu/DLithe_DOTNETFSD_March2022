@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function a
+        function A(a) {
+            this.a = a;
+            A.prototype.getA = function () {
+                document.write(a + "<br>");
+            }
+        }
+
+        // function b
+        function B(a, b) {
+            A.call(this, a);
+            this.b = b;
+            B.prototype.getB = function () {
+                obj.getA();
+                document.write(b + "<br>");
+            }
+        }
+
+        // function c
+        function C(a, b, c) {
+            B.call(this, a, b);
+            this.c = c;
+            C.prototype.getC = function () {
+                obj.getB();
+                document.write(c + "<br>");
+            }
+        }
+
+        B.prototype = Object.create(A.prototype);
+        B.prototype.constructor = B;
+        C.prototype = Object.create(B.prototype);
+        C.prototype.constructor = C;
+        
+        var obj = new C(1, 2, 3);
+        obj.getC(); 
+    </script>
+    <h1>Inheritance</h1>
+    <p id="demo"></p>
+    <script>
+        class Car {
+            constructor(brand) {
+                this.carname = brand;
+            }
+            present() {
+                return 'I have a ' + this.carname;
+            }
+        }
+
+        class Model extends Car {
+            constructor(brand, mod) {
+                super(brand);
+                this.model = mod;
+            }
+            show() {
+                return this.present() + ', it is a ' + this.model;
+            }
+        }
+
+        class Color extends Model {
+            constructor(brand, mod, col) {
+                super(brand, mod);
+                this.color = col;
+            }
+            display() {
+                return super.show() + ', it is ' + this.color;
+            }
+        }
+
+        let car = new Color('BMW', 'X5', 'black');
+        document.getElementById('demo').innerHTML = car.display();
+
+
+
+    </script>
+
+    <br>
+    <p id="demo3"></p>
+
+    <script>
+        function herbivorous(plants, herbs) {
+            this.plants = plants;
+            this.herbs = herbs;
+
+            herbivorous.prototype.getherbivorous = function () {
+                //return plants +' and '+herbs +' '+"are herbivorous";
+                document.write(plants + ' and ' + herbs + ' ' + "are herbivorous" + "<br>");
+            }
+        }
+        function omnivorous(plants, herbs, animals) {
+            herbivorous.call(this, plants, herbs);
+            this.animals = animals;
+            omnivorous.prototype.getomnivorous = function () {
+                om.getherbivorous();
+                document.write(plants + '  ' + herbs + ' and ' + animals + " are omnivorous");
+            }
+        }
+        omnivorous.prototype = new herbivorous();
+        omnivorous.prototype.constructor = omnivorous;
+        var om = new omnivorous("a", "b", "c");
+        om.getomnivorous();
+
+    </script>
+
+</body>
+
+</html>
