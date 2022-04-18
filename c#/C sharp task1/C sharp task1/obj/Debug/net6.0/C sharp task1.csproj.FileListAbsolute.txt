@@ -1,0 +1,15 @@
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\bin\Debug\net6.0\C sharp task1.exe
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\bin\Debug\net6.0\C sharp task1.deps.json
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\bin\Debug\net6.0\C sharp task1.runtimeconfig.json
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\bin\Debug\net6.0\C sharp task1.dll
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\bin\Debug\net6.0\C sharp task1.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.csproj.AssemblyReference.cache
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.AssemblyInfoInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.AssemblyInfo.cs
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.csproj.CoreCompileInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.dll
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\refint\C sharp task1.dll
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\C sharp task1.genruntimeconfig.cache
+D:\DLithe_DOTNETFSD_March2022\c#\C sharp task1\C sharp task1\obj\Debug\net6.0\ref\C sharp task1.dll
