@@ -8,19 +8,22 @@ namespace live_coding
 {
     internal class live_coading
     {
-        public static void Main()
+      
+        public struct langs
         {
-            int A, B;
-            A = Convert.ToInt32(Console.ReadLine());
-            B = Convert.ToInt32(Console.ReadLine());
-            if (A > B)
+            public string HTML;
+            public string CSS;
+            public string Python;
+        }
+        class ABC
+        {
+            static void Main(string[] args)
             {
-                Console.WriteLine("{0} IS greater", A);
-            }
-            else
-            {
-                Console.WriteLine("{0} IS GREATER",B);
-            }
+                langs H1=new langs();
+                H1.HTML= "design";
+                H1.CSS = "Styling";
+                Console.WriteLine("Name of the language:" + H1.HTML + "   use:" + H1.CSS);
+                    }
         }
     }
 }
