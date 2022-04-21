@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Csharp_task3
 {
@@ -111,5 +108,8 @@ namespace Csharp_task3
             }
             Console.WriteLine("Sum of " + n + " natuaral Numvers is:" + sum);
         }
+    }
+}
+
     }
 }
