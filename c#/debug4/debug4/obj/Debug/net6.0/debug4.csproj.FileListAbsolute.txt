@@ -1,0 +1,15 @@
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.csproj.AssemblyReference.cache
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.GeneratedMSBuildEditorConfig.editorconfig
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.AssemblyInfoInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.AssemblyInfo.cs
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.csproj.CoreCompileInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\bin\Debug\net6.0\debug4.exe
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\bin\Debug\net6.0\debug4.deps.json
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\bin\Debug\net6.0\debug4.runtimeconfig.json
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\bin\Debug\net6.0\debug4.dll
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\bin\Debug\net6.0\debug4.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.dll
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\refint\debug4.dll
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\debug4.genruntimeconfig.cache
+D:\DLithe_DOTNETFSD_March2022\c#\debug4\debug4\obj\Debug\net6.0\ref\debug4.dll

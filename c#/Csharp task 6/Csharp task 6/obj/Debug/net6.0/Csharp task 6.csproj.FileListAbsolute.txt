@@ -1,0 +1,15 @@
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\bin\Debug\net6.0\Csharp task 6.exe
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\bin\Debug\net6.0\Csharp task 6.deps.json
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\bin\Debug\net6.0\Csharp task 6.runtimeconfig.json
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\bin\Debug\net6.0\Csharp task 6.dll
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\bin\Debug\net6.0\Csharp task 6.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.csproj.AssemblyReference.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.AssemblyInfoInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.AssemblyInfo.cs
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.csproj.CoreCompileInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.dll
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\refint\Csharp task 6.dll
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\Csharp task 6.genruntimeconfig.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp task 6\Csharp task 6\obj\Debug\net6.0\ref\Csharp task 6.dll
