@@ -1,0 +1,15 @@
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\bin\Debug\net6.0\Csharp Task7.exe
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\bin\Debug\net6.0\Csharp Task7.deps.json
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\bin\Debug\net6.0\Csharp Task7.runtimeconfig.json
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\bin\Debug\net6.0\Csharp Task7.dll
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\bin\Debug\net6.0\Csharp Task7.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.csproj.AssemblyReference.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.GeneratedMSBuildEditorConfig.editorconfig
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.AssemblyInfoInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.AssemblyInfo.cs
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.csproj.CoreCompileInputs.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.dll
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\refint\Csharp Task7.dll
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.pdb
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\Csharp Task7.genruntimeconfig.cache
+D:\DLithe_DOTNETFSD_March2022\c#\Csharp Task7\obj\Debug\net6.0\ref\Csharp Task7.dll
